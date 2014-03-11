@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dormi" tilewidth="32" tileheight="32">
+  <image source="dormi.png" width="1152" height="1024"/>
+ </tileset>
+ <layer name="块层 1" width="36" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DMQkAAAwDsMIc1/9RHyOB9JKqqqqq+vYAvZsafQASAAA=
+  </data>
+ </layer>
+</map>

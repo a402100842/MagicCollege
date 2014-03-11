@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="32" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dormi" tilewidth="32" tileheight="32">
+  <image source="dormi.png" width="1152" height="1024"/>
+ </tileset>
+ <layer name="floor" width="36" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QMQ0AAAgDsMnBMH5BAi9JjxpoJ+lVnPkCAAAAPhmB7hAIABIAAA==
+  </data>
+ </layer>
+ <layer name="buildings" width="36" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8XXZ2xWVRgH8JYyikhU9mzZBcoUyt7IHmXLkC0gs2xQKXtjnB/ciYATBIzzgzsR3CAaQUVEBQciqywB1894DUfS0BHHSX45T/7Pc8977/v2fmhsTExMHuLISz7yU4B4CnIZhbicwtSP+XNdyVUUoSjFKE4JSlKK0pShLOUoTwKJVKAilahMFapSjaToM2pQk+SYC6sOdakX8/fVkBQa0ZgmNA36LWhJqyBrSzvaB1lHOtGZLnSlW9TrQU9Sg/k+9KXfRfczkEEMZgjXMTToj2Ako4JsDGMZF2QTmMgkJjOFtKg3jenMCOZnM4e5F93PPNKZzwIWsijoL2UZy4NsFatZE2S3chu3cwd3cldMztdDrGUd63mYR3JxztM8w7M8x/O8kItz3mAr23iTt3g7F+fsYjef8CmfsSfq7eUL9gXzX7OfAxed8z0H+YFD/MjhoH+M42RkkZ3jPD/zC7/yW9SLjfX+Exd7YT6/ugDxQZadVcx8cUrEXjpLUCdSgYpUonLUr2qvRlIwX1OdTK0gq6uuR32upgENSQlmmqib0iyLrJ26PdfQgY50yuaz947m+tr70Z8BXMtABkX9ITn4LseaHccNjGcCE5nEZKaQxlSmMZ0ZzGRW9Dlz7HO5kZu4mXmkR/0F9oUsYjFLWMoylrOClaxiNWu4hXx5sv8c//Z6Kod/n//F+tg97WI3n/Apn7GHz9nLF+zjS76KnmG//QDf8C3f8T0Ho/4h+48c5ghHOcZxMjjBSU5xmjP8xFnOcT6b39Vfv28BezwFuYxCXE7hqH9FDv4OypgtSznKk0BidH1FeyUqB+dVUydRPciS1bWoTR3qUo/6wUxDdQqNgqypuhnNg6yVujVtaEs72kf9DvaOdArmu6q70T3IUjN5/j+yMB+oHsTgIBuqHsbwIBulHs31jGEs46L+ePsEJgbzU9RpTM3huzjPfDrzg+sWqRezJMiWq1ewklWsZs3/+N5v8NkbeZJNbGZLDu/nbvP3cC/3cT8P8GAunmu7a3bwATv5kI+icz6272J3cG5m2Yvql3iZV3iV13g9mDmsPsLRLLIM9QlOcorTnIn6Z+3nOB/MZ5btU3/JV3zNfg7wTTBzlX8SilA07tJZCXVJSlGaMpSN+uXtCSQG85llceq85CM/BYinYDCTom5E4yyyZurmtKAlrWgd9LOzksxXpwY1SaYWtXN4zh9rmGuGM4KRjGJ0Ds/pZr47PehJKr3onYv7WeyaJSxlGctZEZ2zyr6aNcG5mWVp6qlMYzozmMmsYGateh3rs8geVT/G4zzBBjZG/U32zWwJ5jPLsrO2mt/Gm3GXzt5Rv8t7vM92dkT9nfYP+SiYzyzLzjpo/gcOxV06O6I+yjGOk8GJXPzu/9Qqktf7TzGKU4KSlKI0ZShLOcqTQCIVqEglKlOFqlQjierUoCbJ1KI2dahLPepzNQ1oSAqNaEwTmtKM5rSgJa1oTRva0o72XEMHOtKJznShK93oTg96kkovetOHvvSjPwO4loEMYjBDuI6hDGM4IxjJKEZzPWMYyzhuYDwTmMgkJjOFNKYyjenMYCazmM0c5nIjN3Ez80hnPgtYyO+IlumMABIAAA==
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="36" height="32">
+  <properties>
+   <property name="wall" value="true"/>
+  </properties>
+  <object x="2" y="417" width="92" height="30"/>
+  <object x="62" y="450" width="30" height="479"/>
+  <object x="65" y="932" width="991" height="32"/>
+  <object x="1059" y="419" width="31" height="545"/>
+  <object x="129" y="640" width="95" height="95"/>
+  <object x="287" y="639" width="97" height="97"/>
+  <object x="737" y="639" width="95" height="96"/>
+  <object x="897" y="639" width="93" height="96"/>
+  <object x="449" y="415" width="222" height="96"/>
+  <object x="449" y="511" width="32" height="33"/>
+  <object x="608" y="512" width="62" height="32"/>
+  <object x="449" y="608" width="93" height="30"/>
+  <object x="515" y="672" width="90" height="95"/>
+  <object x="95" y="418" width="320" height="30"/>
+  <object x="707" y="324" width="444" height="24"/>
+  <object x="1" y="320" width="413" height="31"/>
+  <object x="64" y="-1" width="29" height="316"/>
+  <object x="97" y="1" width="317" height="30"/>
+  <object x="482" y="1" width="571" height="30"/>
+  <object x="132" y="35" width="95" height="95"/>
+  <object x="287" y="35" width="94" height="95"/>
+  <object x="129" y="192" width="93" height="96"/>
+  <object x="288" y="192" width="95" height="97"/>
+  <object x="646" y="67" width="28" height="155"/>
+  <object x="514" y="193" width="127" height="29"/>
+  <object x="737" y="34" width="93" height="93"/>
+  <object x="898" y="35" width="92" height="93"/>
+  <object x="737" y="192" width="93" height="94"/>
+  <object x="898" y="194" width="92" height="92"/>
+  <object x="1057" y="0" width="30" height="320"/>
+  <object x="481" y="319" width="156" height="31"/>
+  <object x="131" y="802" width="90" height="91"/>
+  <object x="290" y="802" width="91" height="91"/>
+  <object x="1096" y="419" width="56" height="29"/>
+  <object x="738" y="802" width="91" height="90"/>
+  <object x="898" y="801" width="91" height="92"/>
+  <object x="738" y="483" width="92" height="91"/>
+  <object x="898" y="482" width="91" height="93"/>
+  <object x="707" y="419" width="348" height="27"/>
+  <object x="449" y="641" width="28" height="60"/>
+  <object x="450" y="739" width="27" height="58"/>
+  <object x="450" y="804" width="90" height="27"/>
+  <object x="580" y="802" width="89" height="27"/>
+  <object x="643" y="643" width="26" height="56"/>
+  <object x="644" y="740" width="25" height="56"/>
+  <object x="579" y="611" width="90" height="27"/>
+  <object x="130" y="483" width="90" height="90"/>
+  <object x="291" y="483" width="90" height="90"/>
+  <object x="450" y="258" width="219" height="57"/>
+  <object x="516" y="35" width="152" height="26"/>
+  <object x="484" y="38" width="23" height="182"/>
+  <object x="4" y="387" width="23" height="24"/>
+ </objectgroup>
+ <objectgroup name="Sign" width="36" height="32">
+  <properties>
+   <property name="sign" value="true"/>
+  </properties>
+  <object x="420" y="1" width="25" height="28">
+   <properties>
+    <property name="campus_west" value="true"/>
+   </properties>
+  </object>
+  <object x="1124" y="355" width="23" height="26">
+   <properties>
+    <property name="campus_south" value="true"/>
+   </properties>
+  </object>
+  <object x="710" y="451" width="23" height="26">
+   <properties>
+    <property name="zhishan" value="true"/>
+   </properties>
+  </object>
+  <object x="709" y="291" width="24" height="26">
+   <properties>
+    <property name="mingde" value="true"/>
+   </properties>
+  </object>
+  <object x="389" y="291" width="23" height="25">
+   <properties>
+    <property name="gezhi" value="true"/>
+   </properties>
+  </object>
+  <object x="387" y="451" width="25" height="26">
+   <properties>
+    <property name="shensi" value="true"/>
+   </properties>
+  </object>
+  <object x="1" y="354" width="27" height="27">
+   <properties>
+    <property name="mada" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Door" width="36" height="32">
+  <properties>
+   <property name="door" value="true"/>
+  </properties>
+  <object x="452" y="5" width="21" height="24">
+   <properties>
+    <property name="campus_west" value="true"/>
+   </properties>
+  </object>
+  <object x="1124" y="389" width="22" height="19">
+   <properties>
+    <property name="campus_south" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="NPC" width="36" height="32">
+  <properties>
+   <property name="npc" value="true"/>
+  </properties>
+  <object x="485" y="515" width="27" height="28">
+   <properties>
+    <property name="girl1" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

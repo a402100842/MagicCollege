@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#003399"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="240dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="用户名"
+            android:textSize="20sp" >
+	        >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="left"
+            android:hint="user name"
+            android:singleLine="false"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="密码"
+            android:textSize="20sp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="left"
+            android:hint="password"
+            android:password="true"
+            android:singleLine="false"
+            android:textSize="20sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="登陆"
+            android:textSize="20sp" />
+        
+        
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="注册"
+            android:textSize="20sp" />
+        
+
+
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     <TextView
+        android:id="@+id/textp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.17"
+        android:gravity="center"
+        android:text="Copyright @Magic Team 2013~2014"
+        android:textSize="20sp" />
+      </LinearLayout>
+
+</LinearLayout>
